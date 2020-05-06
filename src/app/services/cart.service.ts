@@ -9,6 +9,7 @@ export class CartService {
   counter: number = 0;
   sumPrice: number = 0;
   cart: productsType = []
+  aa:string;
 
   constructor(private productsService: ProductsService) { }
   add(p_id: number){
